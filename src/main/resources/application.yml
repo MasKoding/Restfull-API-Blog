@@ -1,0 +1,17 @@
+server:
+  port: 8082
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/amigoscode
+    username: dimas
+    password: dimas
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mail:
+    host: smtp.mailtrap.io
+    port: 2525
+    username: ee85056bd66754
+    password: 62dd9dfc6e2216

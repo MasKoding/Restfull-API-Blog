@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  spring-course-container:
+    container_name: spring-course-container
+    image: postgres:13
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: dimas
+      POSTGRES_USER: dimas
+      POSTGRES_DB: amigoscode
